@@ -109,6 +109,9 @@ export default {
       this.$router.push({ name: "contact.add" });
     },
   },
+  mounted() {
+    this.retrieveContacts();
+  },
 };
 </script>
 <style scoped>
